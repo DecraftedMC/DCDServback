@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "version": "${version}",
+  "id": "dcdservback",
+
+  "name": "Decrafted Server Backpacks",
+  "description": "Backpacks for your server!",
+  "authors": [
+    "OG_MrRubberDucky",
+    "Original Author: Oliver-makes-code"
+  ],
+  "contact": {
+    "homepage": "https://github.com/DecraftedMC",
+    "sources": "https://github.com/DecraftedMC/DCDServback"
+  },
+
+  "license": "MIT",
+  "icon": "assets/dcdservback/logo.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.decraftedmc.dcdservback.DCDServback"
+    ]
+  },
+  "mixins": [
+    "servback.mixin.json"
+  ],
+
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.19",
+    "java": ">=17",
+    "nbtcrafting": "*"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#E#",
+    "gPg",
+    "DMD"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wheat",
+      "remainder": { "item": "minecraft:wheat_seeds" }
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "P": {
+      "item": "minecraft:pumpkin_pie"
+    },
+    "D": {
+      "item": "minecraft:honeycomb",
+      "remainder": { "item": "minecraft:honey_bottle" }
+    },
+    "M": {
+      "item": "minecraft:milk_bucket",
+      "remainder": { "item": "minecraft:bucket" }
+    }
+  },
+  "result": {
+    "item": "dcdservback:cottage_cheese_upgrade",
+    "count": 1
+  }
+}

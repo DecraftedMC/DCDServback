@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "dcdservback:truffle_backpack"
+    },
+    "title": {
+      "translate": "adv.decraftedmc.trufflebp.title"
+    },
+    "description": {
+      "translate": "adv.decraftedmc.trufflebp.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "pierogi": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dcdservback:truffle_backpack"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "dcdservback:dough_upgrade",
+      "dcdservback:pancake_backpack"
+    ],
+    "experience": 25
+  }
+}

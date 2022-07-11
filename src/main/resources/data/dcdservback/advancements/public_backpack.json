@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "dcdservback:public_backpack"
+    },
+    "title": {
+      "translate": "adv.decraftedmc.public.title"
+    },
+    "description": {
+      "translate": "adv.decraftedmc.public.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "cookie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dcdservback:public_backpack"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [],
+    "experience": 150
+  }
+}

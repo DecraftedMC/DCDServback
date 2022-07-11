@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#D#",
+    "DBD",
+    "#D#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone",
+      "remainder": { "item": "minecraft:cobblestone" }
+    },
+    "D": {
+      "item": "dcdservback:cottage_cheese_upgrade"
+    },
+    "B": {
+      "item": "dcdservback:pancake_backpack"
+    }
+  },
+  "result": {
+    "item": "dcdservback:pierogi_backpack",
+    "count": 1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C#",
+    "SBS",
+    "#M#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:green_wool"
+    },
+    "C": {
+      "item": "minecraft:cookie",
+      "remainder": { "item": "minecraft:cocoa_beans" }
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "B": {
+      "item": "minecraft:bundle"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket",
+      "remainder": { "item": "minecraft:bucket" }
+    }
+  },
+  "result": {
+    "item": "dcdservback:cookie_backpack",
+    "count": 1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "dcdservback:pancake_backpack"
+    },
+    "title": {
+      "translate": "adv.decraftedmc.pancakebp.title"
+    },
+    "description": {
+      "translate": "adv.decraftedmc.pancakebp.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "pancake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dcdservback:pancake_backpack"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "dcdservback:cottage_cheese_upgrade",
+      "dcdservback:pierogi_backpack",
+      "dcdservback:ender_backpack",
+      "dcdservback:vid_dough"
+    ],
+    "experience": 75
+  }
+}

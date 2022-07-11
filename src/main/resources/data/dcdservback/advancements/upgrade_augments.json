@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "dcdservback:dough_upgrade"
+    },
+    "title": {
+      "translate": "adv.decraftedmc.chocobp.title"
+    },
+    "description": {
+      "translate": "adv.decraftedmc.chocobp.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "cookie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dcdservback:cookie_backpack"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "dcdservback:chocolate_upgrade"
+    ],
+    "experience": 15
+  }
+}

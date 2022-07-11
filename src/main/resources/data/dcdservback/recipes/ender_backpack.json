@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "CMC",
+    " C "
+  ],
+  "key": {
+    "#": {
+      "item": "dcdservback:vid_dough"
+    },
+    "C": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "M": {
+      "item": "dcdservback:pancake_backpack"
+    }
+  },
+  "result": {
+    "item": "dcdservback:ender_backpack",
+    "count": 1
+  }
+}

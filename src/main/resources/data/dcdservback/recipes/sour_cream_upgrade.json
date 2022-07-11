@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#ES",
+    "DPD",
+    "SY#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glow_berries"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "S": {
+      "item": "minecraft:sweet_berries"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "P": {
+      "item": "minecraft:pumpkin_pie",
+      "remainder": { "item": "minecraft:pumpkin_seeds" }
+    },
+    "Y": {
+      "item": "minecraft:powder_snow_bucket",
+      "remainder": { "item": "minecraft:bucket" }
+    }
+  },
+  "result": {
+    "item": "dcdservback:sour_cream_upgrade",
+    "count": 1
+  }
+}

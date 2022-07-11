@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "DBD",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wheat",
+      "remainder": { "item": "minecraft:wheat_seeds" }
+    },
+    "D": {
+      "item": "dcdservback:dough_upgrade"
+    },
+    "B": {
+      "item": "dcdservback:truffle_backpack"
+    }
+  },
+  "result": {
+    "item": "dcdservback:pancake_backpack",
+    "count": 1
+  }
+}

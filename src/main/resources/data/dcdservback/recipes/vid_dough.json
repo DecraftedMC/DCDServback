@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "EDE",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:ender_eye"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "D": {
+      "item": "dcdservback:dough_upgrade"
+    }
+  },
+  "result": {
+    "item": "dcdservback:vid_dough",
+    "count": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "dcdservback:strawberry_pierogi_backpack"
+    },
+    "title": {
+      "translate": "adv.decraftedmc.ultimate.title"
+    },
+    "description": {
+      "translate": "adv.decraftedmc.ultimate.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "ultrapierog": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dcdservback:strawberry_pierogi_backpack"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  }
+}

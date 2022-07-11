@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "dcdservback:chocolate_upgrade"
+    },
+    "title": {
+      "translate": "adv.decraftedmc.firstupgrade.title"
+    },
+    "description": {
+      "translate": "adv.decraftedmc.firstupgrade.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "truffle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dcdservback:chocolate_upgrade"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "dcdservback:truffle_backpack"
+    ],
+    "experience": 15
+  }
+}
