@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#B#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "dcdservback:sour_cream_upgrade"
+    },
+    "B": {
+      "item": "dcdservback:pierogi_backpack"
+    }
+  },
+  "result": {
+    "item": "dcdservback:strawberry_pierogi_backpack",
+    "count": 1
+  }
+}

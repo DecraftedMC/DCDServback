@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "dcdservback:vid_dough"
+    },
+    "title": {
+      "translate": "adv.decraftedmc.enderback.title"
+    },
+    "description": {
+      "translate": "adv.decraftedmc.enderback.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "magicalmilk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dcdservback:ender_backpack"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "dcdservback:public_backpack"
+    ],
+    "experience": 150
+  }
+}

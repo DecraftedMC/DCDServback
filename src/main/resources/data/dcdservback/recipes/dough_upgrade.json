@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "WBW",
+    "MMM"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:egg"
+    },
+    "W": {
+      "item": "minecraft:wheat",
+      "remainder": {"item": "minecraft:wheat_seeds"}
+    },
+    "B": {
+      "item": "minecraft:brown_dye"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket",
+      "remainder": { "item": "minecraft:bucket" }
+    }
+  },
+  "result": {
+    "item": "dcdservback:dough_upgrade",
+    "count": 1
+  }
+}

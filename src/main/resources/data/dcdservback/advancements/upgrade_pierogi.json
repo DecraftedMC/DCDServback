@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "dcdservback:pierogi_backpack"
+    },
+    "title": {
+      "translate": "adv.decraftedmc.pierogibp.title"
+    },
+    "description": {
+      "translate": "adv.decraftedmc.pierogibp.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "ravioli": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dcdservback:pierogi_backpack"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "dcdservback:sour_cream_upgrade",
+      "dcdservback:strawberry_pierogi_backpack"
+    ],
+    "experience": 125
+  }
+}

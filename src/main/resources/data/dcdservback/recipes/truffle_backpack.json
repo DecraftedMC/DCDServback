@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "DBD",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "D": {
+      "item": "dcdservback:dough_upgrade"
+    },
+    "B": {
+      "item": "dcdservback:cookie_backpack"
+    }
+  },
+  "result": {
+    "item": "dcdservback:truffle_backpack",
+    "count": 1
+  }
+}
