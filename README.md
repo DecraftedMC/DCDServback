@@ -1,6 +1,8 @@
 ## Repository Info
 DCDServback or in other words, Decrafted Server Backpacks is an updated fork of Servback by Octal-makes-code for 1.19 which adds server-sided backpacks, intended to be used for vanilla servers or servers utilizing PolyMC. 
 
+**Assets are ARR, please ask me before using them in your projects.** - You don't have to ask me if you're running a Polymer/PolyMC server, after all you need a resource pack to be able to see anything.
+
 ## Dependencies
 Requires [NbtCrafting](https://modrinth.com/mod/nbt-crafting) mod
 
